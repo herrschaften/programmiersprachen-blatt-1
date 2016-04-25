@@ -2,7 +2,7 @@ C++					Objetorientierte Programmiersprache
 Quellcode			Für Menschen verstehbarer Code der in Maschinensprache compiled wird
 Compiler			Übersetzt den Quellcode in eine für den Computer verstehbare Sprach(Maschinencode)
 Linker				Verbindet die einzelnen Bestandteile eines Programmes (versch. Methoden z.Bsp.)
-Objektcode			
+Objektcode			zwischenergebniss des compilers enthält vorgeteilten code (bibliotheken) welcher mit anderen codes verlinkt werden
 Ausführbare Datei	ein Programm (meistens exe.)
 main()				leitet den Kontrollfluss von hier werden z.Bsp. Methoden aufgerufen
 #include			zum einbetten von quellcode wie z.Bsp. mathe Bibliotheken mittels Ptäprozeesor
