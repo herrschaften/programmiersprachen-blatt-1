@@ -1,0 +1,131 @@
+1.1
+-----------------------------------------
+forken(link von github kopieren)
+git clone <link> (terminal in zielordner)
+cd <ordner> (der geklonte)
+mkdir build (terminal)
+cd build		!!!
+cmake ..
+make
+./datei
+./tests
+
+neue exe cpp in source und cmake list erweitern
+------------------------------------------
+1.2
+--------------------------------------------
+touch .gitignore (in zielordner)
+build/ (ignoriert ordner build dazu noch .gitignore aus vorlage kopieren)
+ls -la (zeigt versteckte dateien)
+subl .gitignore (öffnet .gitignore)
+-----
+git add ordner oder datei . für aktuelles verzeichniss (kopiert in index)
+git status (zeigt daten im index grün) 
+git commit -m "kommentar"
+	git config --global user.email "you@example.com"  (**beim ersten mal)
+	git config --global user.name "Your Name"
+	nochmal commit
+git log -p (mit strg+c verlassen)
+git push
+	git config --global push.default simple (**beim ersten mal)
+	nochmal push
+-----------------------------------------------
+1.3
+--------------------------------------------------
+
+typen:
+	int
+	bool
+	char
+	double
+	int const
+	double
+
+variablen:
+	a
+	b
+	c
+	d
+	two
+	e	
+
+werte:
+	9
+	false 
+	’a ’
+	1.3
+	2
+	a / two 	
+
+
+wird eine variable mit const hinter dem Datentyp initialisiert, ist die Zuweisung
+eindeutig sie kann nicht geändert oder überschrieben werden sobald sie einmal zugewiesen wurde.
+
+two = d; ist also nicht zulässig
+
+TYPKONVERTIERUNG!
+
+Ein Datentyp wird in anderen konvertiert (z.B. int>double) 
+
+
+Problem ist, dass z.b. bei e erst mit int gerechnet und dann ausgegeben und in 
+float konvertiert wird. 
+statt 4.5 wird 4 ausgegeben
+Löung schon vorm rechnen konvertieren 
+double 	e = double(a)/two;
+
+-------------------------------------------
+1.4
+Initialisierung :
+int a = 3;
+Es wird vermerkt das a existiert es besitzt noch keinen wert
+
+Zuweisung 
+a = 3;
+Der variablen a wird der wert 3 zugewiesen, dies geht nur weil 
+die variable zuvor initialisiert wurde.
+-------------------------------------------------------
+1.5
+Deklaration 
+(in extra dokument hpp)
+etwas existiert typ+name
+
+-Funktion: int funktion(int x);
+
+-Variablen: int x,y;
+
+-Klassen: class x;
+
+
+Definition
+etwas bekommt einen Inhalt, Werte 
+
+-Funktion: 
+int funktion(int x) {
+	x+1; 
+	std::cout<<x<<std::endl; 
+	return 0;
+	}
+
+-Variablen: int x,y=3;
+
+-Klassen: 
+class x{
+	public: x();
+	private: x();
+}
+------------------------------------------------------------
+1.6
+
+int x(int a, int b)
+
+int var = alles
+double a,b = double sum 
+int i = int main
+----------------------------------------------------------
+
+
+
+
+
+

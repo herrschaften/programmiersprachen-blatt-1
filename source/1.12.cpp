@@ -2,26 +2,18 @@
 #include <catch.hpp>
 #include <cmath>
 
-int gcd ( int a , int b )
-{
-
-	if (b==0)
-	{	
-		return a;
-		
-	}
-	else{
-		gcd (b, a%b);
-	}
+double mtk(double a){
+	a=a*1.609344;
+	return a;
+}          
 	
-}
 
 
 TEST_CASE ( " describe_gcd " , " gcd " )
 {
-REQUIRE ( gcd (2 ,4) == 2);
-REQUIRE ( gcd (6 ,9) == 3);
-REQUIRE ( gcd (3 ,7) == 1);
+REQUIRE ( mtk (1) == Approx (1.60934));
+REQUIRE ( mtk (5) == Approx (8.04672));
+REQUIRE ( mtk (30) == Approx (48.2803));
 }
 
 int main(int argc, char* argv[])
