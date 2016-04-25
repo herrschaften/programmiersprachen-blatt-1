@@ -7,8 +7,8 @@ int quersumme ( int a)
 
 	int q=0;
 	while(a>0){
-    q= a % 10 + q;
-    a = a/10;
+    q= a % 10 + q; //plus letzte ziffer
+    a = a/10;		//letzte ziffer raus wegen int
 	}
     return q;
 }          

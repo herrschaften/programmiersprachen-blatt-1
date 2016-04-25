@@ -2,9 +2,9 @@
 #include <catch.hpp>
 #include <cmath>
 
-double fract (double a){
+double fract (double a){		//nachkommaanteil
 
-	int b = a;
+	int b = a;				
     return a-b;
 }          
 	

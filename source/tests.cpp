@@ -2,10 +2,10 @@
 #include <catch.hpp>
 #include <cmath>
 
-int gcd ( int a , int b )
-{
+int gcd ( int a , int b )	//größter gemeinsamer teiler
+{			
 
-	if (b==0)
+	if (b==0)				//euklidscher alg.
 	{	
 		return a;
 		

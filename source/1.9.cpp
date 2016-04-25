@@ -11,15 +11,15 @@ int sum ()
 	for (int i=1; s<997; ++i)
 	{
 
-		s = (i*3);
-		if (s%5){
+		s = (i*3);			//alle 3er
+		if (s%5){			//alle durch 3 und 5 teilbaren abfangen 
 			m+=s;
 		}
 		
 	}
 	for (int i = 1; l < 996; ++i)
 	{
-		l=(i*5);
+		l=(i*5);				//alle 5er 
 		m+=l;
 	}
 	return m;
